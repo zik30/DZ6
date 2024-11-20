@@ -53,8 +53,6 @@ text.append(textP)
 button3.onclick = () => {
     if(arr.length === 0) return alert('Please enter some sentences')
     arr.forEach((e) => {
-        textP.innerText += e + ". "
+        textP.innerText += `${e}.`
     })
-    console.log(text)
-
 }
